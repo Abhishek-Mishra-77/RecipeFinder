@@ -1,0 +1,9 @@
+.savedRecipe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.savedRecipe img {
+  width: 100px;
+  height: 100px;
+}

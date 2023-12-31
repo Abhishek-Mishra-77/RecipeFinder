@@ -1,0 +1,38 @@
+.main-viewPage {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.left-view {
+  /* width: 30rem; */
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.left-view .left-some-image {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+}
+.left-view .left-some-image img {
+  width: 110px;
+  height: 110px;
+}
+
+.left-view img {
+  /* width: 30rem; */
+}
+.right-view {
+  width: 30rem;
+}
+
+.right-view-card {
+  width: 100%;
+  height: 100%;
+}
+
+.left-view-main button {
+  width: 100%;
+}

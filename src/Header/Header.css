@@ -1,0 +1,9 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo h2 {
+  margin-left: 5px;
+}
