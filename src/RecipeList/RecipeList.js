@@ -3,7 +3,7 @@ import '../RecipeContainer/RecipeContainer.css'
 import { useNavigate } from 'react-router';
 
 const RecipeList = (props) => {
-    const { recipeObj, calories } = props;
+    const { recipeObj } = props;
     const navigate = useNavigate();
 
     const recipeViewHandler = (recipe) => {

@@ -18,7 +18,7 @@ const Header = ({ fetchData }) => {
 
     let count = 0;
     if (savedRecipe) {
-        for (let i = 0; i < savedRecipe.length > 0 && savedRecipe.length; i++) {
+        for (let i = 0; i < savedRecipe.length; i++) {
             count++;
         }
     }
